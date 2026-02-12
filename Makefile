@@ -1,4 +1,4 @@
-DRAFT:=draft-yusef-lamps-rfc7030-renewal-recommendation
+DRAFT:=draft-ietf-lamps-est-renewal-info
 VERSION:=$(shell ./getver ${DRAFT}.mkd )
 EXAMPLES=
 XML2RFC=/corp/ietf/venv/bin/xml2rfc
