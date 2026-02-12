@@ -41,7 +41,7 @@ informative:
 venue:
   group: lamps
   mail: spasm@ietf.org
-  github: mcr/rfc7030-renewal-recommendation
+  github: lamps-wg/est-renewal-info
 
 --- abstract
 
