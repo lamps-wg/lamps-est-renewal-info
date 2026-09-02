@@ -202,13 +202,13 @@ known URIs Registry entitled: "EST well-known URIs".
 The registry shall have at least five columns:
 
 1. URI Path Component
-2. short-URI Component
+2. Short-URI Component
 3. CoAP Path abbreviation
 4. description
 5. reference.
 
-The Short-URI components are from {{RFC9148}}.
-The CoAP Path abbreviations are from {{I-D.ietf-core-uri-path-abbrev}} and maintained in the Uri-Path-Abbrev registry (in the CoRE parameters group), and only listed here for reference.
+The Short-URI components are from {{?RFC9148}}.
+The CoAP Path abbreviations are from {{!I-D.ietf-core-uri-path-abbrev}} and maintained in the Uri-Path-Abbrev registry (in the CoRE parameters group), and only listed here for reference.
 
 New items can be added using the Specification Required process.
 
