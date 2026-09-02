@@ -176,9 +176,9 @@ The advice in {{RFC9773, Section 4.3}} applies:
 A very short certificate lifetime renewal time will cause clients to communicate with the EST Registrar more frequently.
 
 EST connections for renewals typically make use of mutually authenticated TLS.
-When the client certificate being an IDevID, or the last issued certificate, often an LDevID, there is potential to disclose identities during this connection when using TLS 1.2.
+The client certificate used is either an IDevID or an operational LDevID (issued on the previous renewal).  When using TLS 1.2, client certificate contents are not kept private.
 
-TLS 1.3 does not suffer from this problem, and it's use is RECOMMENDED as per {{?I-D.ietf-uta-require-tls13}}
+TLS 1.3 does not suffer from this problem, and it's use is RECOMMENDED as per {{?RFC9852}}.
 
 # Security Considerations
 
